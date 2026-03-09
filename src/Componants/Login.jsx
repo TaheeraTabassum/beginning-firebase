@@ -51,7 +51,7 @@ export default function Login() {
         
   return (
     <div>
-        <button className="border border-teal-600 rounded-xl p-2 cursor-pointer" onClick={handleGoogleSignIn}>Login with google</button>
+        <button className="border border-teal-600 rounded-xl p-2 cursor-pointer" onClick={handleGoogleSignIn}>Login with google</button> 
         <button className="border border-teal-600 rounded-xl p-2 cursor-pointer" onClick={handleGithubSignIn}>Login with Github</button>
       {user &&  <div><div className="flex  justify-center gap-6">
     
